@@ -7,5 +7,13 @@ function ninjaBabySelector(){
   return $('#baby-ninja');
 }
 function lastImageSelector(){
-  return $('li:last');
+  return $('#pic-list li:last-child');
+}
+
+function divSelector(){
+  return $('div');
+}
+
+function firstListItem(){
+  return $('ul li:first-child');
 }
